@@ -1,0 +1,4 @@
+# This file enables runtime tracing
+org.jboss.tools.asciidoc.texteditor/info=true
+org.jboss.tools.asciidoc.texteditor/debug=true
+org.jboss.tools.asciidoc.texteditor/trace=false

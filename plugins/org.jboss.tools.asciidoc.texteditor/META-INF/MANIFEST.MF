@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Asciidoc Text Editor
+Bundle-SymbolicName: org.jboss.tools.asciidoc.texteditor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.jboss.tools.asciidoc.texteditor.AsciidocTextEditorActivator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text;bundle-version="3.8.100",
+ org.eclipse.ui.editors
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7,
+ JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: JBoss by Red Hat
+Export-Package: org.jboss.tools.asciidoc.texteditor.internal.document;x-friends:="org.jboss.tools.asciidoc.texteditor.test",
+ org.jboss.tools.asciidoc.texteditor.internal.document.partition;x-friends:="org.jboss.tools.asciidoc.texteditor.test"

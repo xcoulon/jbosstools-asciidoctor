@@ -1,0 +1,27 @@
+////
+a 
+comment 
+on 
+multiple
+lines
+////
+
+// a comment on a single line
+
+a paragraph with bold *here* and italic content _there_. 
+
+= Document Title *(Level 0)*
+
+== Section Level 1
+
+=== Section Level 2
+
+==== Section Level 3
+
+===== Section Level 4
+
+====== Section Level 5 (Asciidoctor only)
+
+= Section Level 0
+
+	some paragraph preceeded by a TAB	

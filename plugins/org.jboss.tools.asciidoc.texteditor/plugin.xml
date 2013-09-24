@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.jboss.tools.asciidoc.texteditor.internal.AsciidocTextEditor"
+            default="false"
+            id="org.bytesparadise.asciidoc.texteditor"
+            name="Asciidoc Editor">
+         <contentTypeBinding
+               contentTypeId="org.bytesparadise.asciidoc.texteditor.contentType">
+         </contentTypeBinding>
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.core.contenttype.contentTypes">
+      <content-type
+            file-extensions="adoc"
+            id="org.bytesparadise.asciidoc.texteditor.contentType"
+            name="Asciidoc"
+            priority="normal">
+      </content-type>
+   </extension>
+
+</plugin>
